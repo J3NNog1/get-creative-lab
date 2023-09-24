@@ -21,6 +21,9 @@ public class GetCreativeLab {
         //below i'll be using the charInput
         System.out.println("Enter a character: ");
         char charInput = scanner.next().charAt(0);
+        //below i'll be using string method
+        System.out.println("Enter a string: ");
+        String stringInput = scanner.next();
 
 
 
@@ -55,5 +58,7 @@ public class GetCreativeLab {
         System.out.println("Float Input: " + floatInput);
         //displaying charInput
         System.out.println("Character Input: " + charInput);
+        //displaying stringInput
+        System.out.println("String Input: " + stringInput);
     }
 }
