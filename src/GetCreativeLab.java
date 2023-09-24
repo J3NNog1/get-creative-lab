@@ -12,6 +12,10 @@ public class GetCreativeLab {
         double number3 = scanner.nextDouble();
         System.out.print("Enter the fourth number: ");
         double number4 = scanner.nextDouble();
+        //below i added the intergerInput
+        System.out.println("Enter an integer: ");
+        int integerInput = scanner.nextInt();
+
 
 
         scanner.close();
@@ -38,5 +42,7 @@ public class GetCreativeLab {
         System.out.println("Is the first number you entered even?..." + isEven);
         System.out.println("Is the the first number you entered positive?..." + isPositive);
 
+        System.out.println("\nUser Inputs: ");
+        System.out.println("Integer Input: " + integerInput);
     }
 }
