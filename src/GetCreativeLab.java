@@ -26,8 +26,8 @@ public class GetCreativeLab {
         String stringInput = scanner.next();
 
 
-
         scanner.close();
+
         //remember to close scanner to prevent resource leak!
         //below I am using arithmetic operators
         double sum = number1 + number2 + number3 + number4;
@@ -38,6 +38,27 @@ public class GetCreativeLab {
         // below i am using logical operators
         boolean isEven = (number1 % 2 == 0);
         boolean isPositive = (number1 > 0);
+
+        //unary expression
+        //i am initializing the double variable "unaryResult" to an initial value of 0
+
+        //next i create an if conditional checking if "unaryOperator" string is equal to string "++"
+        //if yes, it goes to to next block of code where the integerInput increments by 1
+        //it assigns the result to unaryResult
+//        String unaryOperator = "++"; // Initialize unaryOperator based on your logic
+//        double unaryResult = 0;
+//        double doubleInput = 0.0;
+        //next i create an if conditional checking if "unaryOperator" string is equal to string "++"
+        //if yes, it goes to next block of code where the integerInput increments by 1
+        //it assigns the result to unaryResult
+//        if (unaryOperator.equals("++")) {
+//            unaryResult = integerInput + 1;
+//        } else if (unaryOperator.equals("--")) {
+//            unaryResult = integerInput - 1;
+//        } else if (unaryOperator.equals("!")) {
+//            unaryResult = (doubleInput != 0) ? 0 : 1;
+//        }
+
 
         //displaying my results to the user below
         System.out.println("\nArithmetic Operators:");
@@ -60,5 +81,12 @@ public class GetCreativeLab {
         System.out.println("Character Input: " + charInput);
         //displaying stringInput
         System.out.println("String Input: " + stringInput);
+
+        System.out.println("\nResults: ");
+        //display unary result
+//        System.out.println("Results of the unary expression: " + unaryResult);
+        //display logical expression
+//        System.out.println("Result of Logical Expression: " + logicalResult);
+
     }
 }
