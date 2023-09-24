@@ -19,8 +19,8 @@ public class GetCreativeLab {
         System.out.println("Enter a floating-point number: ");
         float floatInput = scanner.nextFloat();
         //below i'll be using the charInput
-//        System.out.println("Enter a character: ");
-//        char charInput = scanner.next().charAt(0);
+        System.out.println("Enter a character: ");
+        char charInput = scanner.next().charAt(0);
 
 
 
@@ -54,6 +54,6 @@ public class GetCreativeLab {
         //displaying float input
         System.out.println("Float Input: " + floatInput);
         //displaying charInput
-//        System.out.println("Character Input: " + charInput);
+        System.out.println("Character Input: " + charInput);
     }
 }
