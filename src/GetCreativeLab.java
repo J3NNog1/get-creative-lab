@@ -12,9 +12,12 @@ public class GetCreativeLab {
         double number3 = scanner.nextDouble();
         System.out.print("Enter the fourth number: ");
         double number4 = scanner.nextDouble();
-        //below i added the intergerInput
+        //below i added the integerInput
         System.out.println("Enter an integer: ");
         int integerInput = scanner.nextInt();
+        //below i'll be using a float expression
+        System.out.println("Enter a floating-point number: ");
+        float floatInput = scanner.nextFloat();
 
 
 
@@ -43,6 +46,9 @@ public class GetCreativeLab {
         System.out.println("Is the the first number you entered positive?..." + isPositive);
 
         System.out.println("\nUser Inputs: ");
+        //displaying integer input
         System.out.println("Integer Input: " + integerInput);
+        //displaying float input
+        System.out.println("Float Input: " + floatInput);
     }
 }
